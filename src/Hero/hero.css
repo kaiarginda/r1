@@ -1,0 +1,271 @@
+.hero {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url("https://www.elegantthemes.com/layouts/wp-content/uploads/2018/04/real-estate-03.jpg") !important;
+}
+
+.hero h1 {
+  font-size: 80px;
+  text-align: left;
+  color: white;
+}
+
+.hero-left {
+  padding-left: 50px;
+  padding-top: 80px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left p {
+  width: 600px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: white;
+}
+
+.hero-left {
+  text-align: left;
+  padding-left: 120px;
+}
+
+.hero-right {
+  /* padding-right: 120px; */
+  background-color: rgba(36, 36, 76, 0.62);
+  display: inline-block;
+  border-top: 5px solid #fa7f28;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  /* height: 160px; */
+  color: white;
+}
+
+.hero-left button {
+  background-color: #fa7f28;
+  margin-top: 20px;
+  padding: 18px 40px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  border-width: 6px !important;
+  border-color: #fa7f28;
+  letter-spacing: 2px;
+}
+
+.hero-left,
+.hero-right {
+  /* padding-bottom: 200px; */
+}
+
+.hero-right ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-right h2 {
+  text-align: left;
+}
+
+.hero-right-box {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+
+  padding-left: 30px;
+  padding-top: 20px;
+  /* padding-bottom: 50px; */
+  padding-right: 60px;
+
+  gap: 20px;
+  text-align: left;
+}
+
+.hero-left {
+  padding-top: 180px !important;
+  padding-bottom: 200px;
+}
+
+.hero-right {
+  margin-right: 50px;
+}
+
+.hero-right button {
+  padding: 10px;
+  width: 150px;
+  color: #3c39e6 !important;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  /* margin-top: 20px; */
+  transform: translateY(20px);
+}
+
+.hero-left button span {
+  /* display: none; */
+  visibility: hidden;
+  position: absolute;
+
+  top: 50%;
+
+  transform: translate(-50%, -60%);
+}
+
+.hero-left button {
+  position: relative;
+  transition: 0.2s;
+}
+
+.hero-left button:hover span {
+  transition: 0.2s;
+
+  visibility: visible;
+  display: inline;
+  transform: translate(20%, -60%);
+}
+
+.hero-left button:hover {
+  padding-right: 50px;
+}
+/*  */
+
+.hero-right button {
+  position: relative;
+  transition: 0.2s;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.hero-right button:hover span {
+  transition: 0.2s;
+
+  visibility: visible;
+  display: inline;
+  transform: translate(20%, -60%);
+}
+
+.hero-right button:hover {
+  padding-right: 50px;
+  width: 170px;
+}
+
+.hero-right button span {
+  /* display: none; */
+  visibility: hidden;
+  position: absolute;
+
+  top: 50%;
+
+  transform: translate(-50%, -60%);
+}
+/*  */
+.hero-left h1 {
+  animation: hero-rotate 1000ms;
+}
+
+@keyframes hero-rotate {
+  0% {
+    transform: rotateY(65deg);
+  }
+
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+.hero-first-p {
+  animation: hero-rotate 1000ms;
+}
+
+.hero-left button {
+  animation: hero-rotate 1000ms;
+}
+
+@keyframes hero-r-rotate {
+  0% {
+    transform: rotateY(65deg);
+  }
+
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+.hero-right button {
+  animation: hero-r-rotate 1000ms;
+  animation: tr-tsY-20 1000ms;
+}
+
+.hero-right h2 {
+  animation: hero-r-rotate 1000ms;
+}
+
+.hero-right ul {
+  animation: hero-r-rotate 1000ms;
+}
+
+@keyframes tr-tsY-20 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+@media (max-width: 1125px) {
+  .hero {
+    display: flex;
+    flex-direction: column !important;
+    padding-bottom: 150px;
+    gap: 50px;
+  }
+  .hero-left {
+    padding-bottom: 0 !important;
+    text-align: left !important;
+    width: 90%;
+    padding-top: 50px !important;
+    padding-left: 0 !important;
+  }
+
+  .hero-right {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 606px) {
+  .hero-left h1 {
+    /* animation: hero-rotate 1000ms;
+     */
+    font-size: 40px !important;
+  }
+
+  .hero-left p {
+    font-size: 21px;
+    width: 400px !important;
+  }
+}
+
+.hero {
+  width: 100%;
+}

@@ -1,0 +1,107 @@
+.ls-landing {
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/04/real-estate-14.jpg) !important;
+  background-position: center top;
+}
+
+.ls-landing-box {
+  padding-top: 140px;
+  padding-bottom: 170px;
+  padding-left: 60px;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ls-landing-box h1 {
+  font-size: 100px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 900;
+}
+
+.ls-landing-box p {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1.2px;
+  width: 600px;
+}
+
+.ls-landing-inp {
+  display: flex;
+  align-items: center;
+}
+
+.ls-landing-inp input {
+  border: none;
+  outline: none;
+
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  height: 50px;
+
+  /* width: 300px; */
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.ls-landing-inp button {
+  height: 50px;
+  width: 100px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  outline: none;
+  border: none;
+  background-color: #3c39e6 !important;
+  border-color: #3c39e6 !important;
+  font-weight: 900;
+  font-size: 13px;
+  color: #ffffff !important;
+  letter-spacing: 1px;
+}
+
+.ls-landing-inp input::placeholder {
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .ls-landing-box p {
+    font-size: 16px;
+
+    max-width: 80%;
+  }
+
+  .ls-landing-box h1 {
+    font-size: 60px;
+  }
+
+  .info-item {
+    width: 90% !important;
+  }
+  .info-item-box {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ls-landing {
+    width: 100% !important;
+  }
+  .listings-firstp {
+    font-size: 18px;
+    max-width: 70%;
+  }
+
+  .ls-landing-box {
+    padding-left: 30px !important;
+  }
+}
+
+.landingspage-parent {
+  width: 100%;
+}

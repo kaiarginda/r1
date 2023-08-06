@@ -1,0 +1,76 @@
+.footer {
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/04/real-estate-06.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.footer h2 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.footer-box {
+  margin-top: 150px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer p {
+  font-size: 24px;
+  letter-spacing: 1.2;
+  line-height: 2;
+}
+
+.footer button {
+  color: #ffffff !important;
+  border-width: 6px !important;
+  box-shadow: 0px 12px 30px 8px rgba(250, 127, 40, 0.15);
+
+  border-color: #fa7f28;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  background-color: #fa7f28;
+  outline: none;
+  border: none;
+
+  padding: 1em 2em;
+}
+
+.ft-btn {
+  transition: all 0.37s !important;
+}
+.ft-btn:hover span {
+  display: inline;
+}
+
+.ft-btn:hover {
+  transition: all 0.25s !important;
+
+  padding-right: 35px !important;
+}
+
+.ft-btn span {
+  display: none;
+}
+
+@media (max-width: 975px) {
+  .footer p {
+    font-size: 20px;
+  }
+}
+
+.footer {
+  width: 100% !important;
+}
