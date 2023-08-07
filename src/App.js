@@ -16,9 +16,9 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          path="/homes"
+          path="/real"
           element={[
-            <Navbar pth="/homes" />,
+            <Navbar pth="/real" />,
             <Hero />,
             <Info />,
             <Pages />,
