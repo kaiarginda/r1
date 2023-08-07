@@ -88,7 +88,7 @@ const Navbar = (pth) => {
         </NavLink>
         <NavLink
           key={Math.random() * 9999}
-          to="/houses"
+          to="/homes"
           // activeclassname="cl-bl"
           className="navbar-li-link"
         >
