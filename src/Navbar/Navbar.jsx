@@ -23,7 +23,7 @@ const Navbar = (pth) => {
 
     liClass1.current = document.querySelector(".listings-li");
 
-    if (pth.pth === "/") {
+    if (pth.pth === "/homes") {
       liClass1.current.classList.remove("cl-bl");
 
       liClass.current.classList.add("cl-bl");
@@ -88,7 +88,7 @@ const Navbar = (pth) => {
         </NavLink>
         <NavLink
           key={Math.random() * 9999}
-          to="/"
+          to="/houses"
           // activeclassname="cl-bl"
           className="navbar-li-link"
         >
